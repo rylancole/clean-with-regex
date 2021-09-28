@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Clean with Regex
+## Powerful find'n'replace for cleaning data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Find
 
-## Available Scripts
+Enter regex in the _Find input_ to select sub-strings.
 
-In the project directory, you can run:
+<img width="296" alt="regex-screenshot-find" src="https://user-images.githubusercontent.com/35235782/135143818-fe24b732-918e-4f15-9444-a4b679970dab.png">
 
-### `npm start`
+[Regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Replace
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Enter a new sub-string in the _Replace input_ to overwrite the selected substrings. Select sub-strings can be used as paremeters in the _Replace input_.
 
-### `npm test`
+<img width="298" alt="regex-screenshot-replace" src="https://user-images.githubusercontent.com/35235782/135143875-c966a24c-cb96-425d-b263-07defddae654.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Specifying a string as a parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll#specifying_a_string_as_a_parameter)
 
-### `npm run build`
+### Data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Enter the data you'd like to manipulate in the _Data textarea_.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="314" alt="regex-screenshot-data" src="https://user-images.githubusercontent.com/35235782/135143944-38628e20-fca5-4576-92e4-a9d6021b5325.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Go
 
-### `npm run eject`
+Click _Go_ to apply your regex replacement!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![regex-vid](https://user-images.githubusercontent.com/35235782/135147386-5c9b8e9b-c7d8-4422-bd33-8675e85d317e.gif)
