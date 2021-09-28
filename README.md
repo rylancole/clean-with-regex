@@ -1,5 +1,5 @@
 # Clean with Regex
-## Powerful find'n'replace for cleaning data
+***Powerful find'n'replace for cleaning data***
 
 ### Find
 
